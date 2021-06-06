@@ -20,7 +20,7 @@ class Coin:
         #  width and height are controlled by variable main.py
         self.x = random.uniform(0, s_width)  # x axis coordinate
         self.y = random.uniform(0, s_height)  # y axis coordinate
-
+        self.alive = True
         self.radius = 15  # used for collision detection
 
     def draw(self):

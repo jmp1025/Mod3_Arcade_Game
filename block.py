@@ -15,6 +15,7 @@ class Block:
         self.width = w  # controlled by variable in game.py
         self.height = h  # controlled by variable in game.py
         self.radius = 50  # used for collision detection
+        self.alive = True
 
     def draw(self):
         """
